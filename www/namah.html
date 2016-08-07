@@ -41,7 +41,7 @@
 </div>
 
 <div>
-<a href="https://play.google.com/store/search?q=pub%3AUVTechnoLab"><img src="images/rate.png" style=" margin-top: 10%;width: 35%!important;"></a>
+<a onClick="OpenLink();"><img src="images/rate.png" style=" margin-top: 10%;width: 35%!important;"></a>
 </div>
 
   </div>
@@ -64,7 +64,11 @@ vid.onpause = function() {
     $("#slider").excoloSlider();
 });
 </script>
-  
+<script>
+function OpenLink(){
+    window.open("https://play.google.com/store/search?q=pub%3AUVTechnoLab", "_blank");
+}
+</script>  
 </body>
 
 </html>
